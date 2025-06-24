@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xiomi project</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--responsive css -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar-section-start------------------------------------------------------------ -->
+        <nav class="navbar navbar-expand-lg shadow-lg" id="navbar">
+            <div class="container">
+                <!-- mobile icon start-->
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling">
+                    <span class="d-block d-lg-none"><iconify-icon icon="iconoir:menu" width="35"
+                            height="35"></iconify-icon></span>
+                </button>
+                <!-- mobile icon end -->
+                <!-- navbar brand -->
+                <a class="navbar-brand" href="#"><img src="./assets/images/nav-logo.png" alt="Xiomi" width="118px"></a>
+                <!-- nav-items start -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service-section">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience-section">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#award">Awards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing-section">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients-section">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog-section">Blog</a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <!-- nav items end -->
+                <div class="hire-me d-lg-block d-none">
+                    <a href="" class="hire-me">Hire Me <iconify-icon icon="humbleicons:arrow-right-up" width="24"
+                            height="24"></iconify-icon></a>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navbar-section-end -->
+        <!-- offcanvas start -->
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"> <img src="./assets/images/nav-logo.png"
+                        alt="Xiomi"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service-section">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
+        <!-- offcanvas end -->
+
+        <!-- hero-section-start------------------------------------------------------------ -->
+        <section id="hero-section">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 hero-left order-1 order-lg-0 ">
+                        <img src="./assets/images/hero-image.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 hero-right order-0 order-lg-1  ">
+                        <h6><img src="./assets/images/icon-image.png" alt="">Hey There</h6>
+                        <h2>I'm Rachel Davis <span class="highlight">Web</span></h2>
+                        <p>We're a team of strategic working globally with largest brands, We believe that progress only
+                            you to play things safe.</p>
+                        <div class="hero-btns">
+                            <a href="">Download Cv <iconify-icon icon="mi:arrow-right" width="24"
+                                    height="24"></iconify-icon> </a>
+                            <span class="reel-paly-icon"><iconify-icon icon="tabler:player-play-filled" width="24"
+                                    height="24" class="iconify"></iconify-icon></span>
+                            <a href=""> show reel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero-section-end -->
+    </header>
+    <!-- about me section start------------------------------------------------------------ -->
+    <section id="about-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 about-left">
+                    <h6><img src="./assets/images/icon-image.png" alt="start">About me</h6>
+                    <h2>Solving Problems With <span class="highlight">Intuitive Design</span></h2>
+                    <p>We’re a team of strategic working globally with largest brands, We
+                        believe that progress only you to play things safe.</p>
+                    <div class="experience-container">
+                        <div class="contains">
+                            <span>10+</span>
+                            <div class="">
+                                <p>Years</p>
+                                <p>Experienct...</p>
+                            </div>
+                        </div>
+                        <div class="contains">
+                            <span>14</span>
+                            <div class="">
+                                <p>Clients</p>
+                                <p>Worldwide...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-me">
+                        <a href="">about me <iconify-icon icon="prime:arrow-up-right" width="24"
+                                height="24"></iconify-icon> </a>
+                        <div class="phone">
+                            <span><iconify-icon icon="ic:sharp-phone" width="24" height="24"></iconify-icon></span>
+                            <div class="">
+                                <h6>Phone</h6>
+                                <p>+01891797645</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-right">
+                    <img src="./assets/images/about-me.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about me section end -->
+    <!-- service start------------------------------------------------------------->
+    <section id="service-section">
+        <div class="container">
+            <div class=" d-lg service-header">
+                <h6> <img src="./assets/images/icon-image.png" alt=""> Our Service</h6>
+                <h2>The Ease- <span class="highlight">Service</span> Process</h2>
+            </div>
+            <div class="service-list">
+                <!-- 1 -->
+                <div class=" d-lg service-item">
+                    <span class="order-list">01</span>
+                    <div class="service-details">
+                        <h3>Moblie App Design</h3>
+                        <p>We’re a team of strategic working globally with largest brands,progress only you to play
+                            things safe.</p>
+                    </div>
+                    <a href="" class="service-link" alt="Learn More"><iconify-icon icon="solar:arrow-right-up-outline"
+                            width="24" height="24"></iconify-icon></a>
+                </div>
+                <!-- 2 -->
+                <div class="service-item">
+                    <span class="order-list">02</span>
+                    <div class="service-details">
+                        <h3>Web Design</h3>
+                        <p>We’re a team of strategic working globally with largest brands,progress only you to play
+                            things safe.</p>
+                    </div>
+                    <a href="" class="service-link" alt="Learn More"><iconify-icon icon="solar:arrow-right-up-outline"
+                            width="24" height="24"></iconify-icon></a>
+                </div>
+                <!-- 3 -->
+                <div class="service-item">
+                    <span class="order-list">03</span>
+                    <div class="service-details">
+                        <h3>UX/UI Design</h3>
+                        <p>We’re a team of strategic working globally with largest brands,progress only you to play
+                            things safe.</p>
+                    </div>
+                    <a href="" class="service-link" alt="Learn More"><iconify-icon icon="solar:arrow-right-up-outline"
+                            width="24" height="24"></iconify-icon></a>
+                </div>
+                <!-- 4 -->
+                <div class="service-item">
+                    <span class="order-list">04</span>
+                    <div class="service-details">
+                        <h3>Visual Design</h3>
+                        <p>We’re a team of strategic working globally with largest brands,progress only you to play
+                            things safe.</p>
+                    </div>
+                    <a href="" class="service-link" alt="Learn More"><iconify-icon icon="solar:arrow-right-up-outline"
+                            width="24" height="24"></iconify-icon></a>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </section>
+    <!-- service end------------------------------------------------------------->
+    <!-- portfolio section start------------------------------------------------ -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="header">
+                <p><img src="./assets/images/icon-image.png" alt="">portfolio</p>
+                <div class="header-container">
+                    <h2>My Featured <span class="highlight"> Protfoilo</span> </h2>
+                    <a href="" alt="view More">View Project <iconify-icon icon="solar:arrow-right-up-outline" width="24"
+                            height="24"></iconify-icon> </a>
+                </div>
+            </div>
+            <!-- 1no row -->
+            <!-- <p class="bg-danger m-0">margin nai kano</p> -->
+            <div class="row justify-content-center align-items-center portfolio-wrapper">
+                <div class="col-lg-6 portfolio-content">
+                    <img src="./assets/images/protfolio-img1.png" alt="Portfolio" class="img-fluid">
+                    <div class="portfolio-links-details">
+                        <div class="">
+                            <h6>App Development</h6>
+                            <p>Mobile App for Task Management</p>
+                        </div>
+                        <a href=""><iconify-icon icon="solar:arrow-right-up-outline" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-content">
+                    <img src="./assets/images/protfolio-img2.png" alt="Portfolio" class="img-fluid">
+                    <div class="portfolio-links-details">
+                        <div class="">
+                            <h6>App Development</h6>
+                            <p>Mobile App for Task Management</p>
+                        </div>
+                        <a href=""><iconify-icon icon="solar:arrow-right-up-outline" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2no row -->
+            <div class="row justify-content-center align-items-center portfolio-wrapper">
+                <div class="col-lg-6 portfolio-content">
+                    <img src="./assets/images/protfolio-img1.png" alt="Portfolio" class="img-fluid">
+                    <div class="portfolio-links-details">
+                        <div class="">
+                            <h6>App Development</h6>
+                            <p>Mobile App for Task Management</p>
+                        </div>
+                        <a href=""><iconify-icon icon="solar:arrow-right-up-outline" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 portfolio-content">
+                    <img src="./assets/images/protfolio-img2.png" alt="Portfolio" class="img-fluid">
+                    <div class="portfolio-links-details">
+                        <div class="">
+                            <h6>App Development</h6>
+                            <p>Mobile App for Task Management</p>
+                        </div>
+                        <a href=""><iconify-icon icon="solar:arrow-right-up-outline" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+            </div>
+            <!-- end -->
+        </div>
+    </section>
+    <!-- portfolio section end -->
+    <!-- experience start--------------------------------------------------------- -->
+    <section id="experience-section">
+        <div class="container">
+            <div class="experience-header">
+                <h6><img src="./assets/images/icon-image.png" alt="">My Experience</h6>
+                <h2>My Work Experience</h2>
+            </div>
+            <div class="experience-list">
+                <!-- 1 -->
+                <div class="experience-item">
+                    <span>2024</span>
+                    <h4>Senior Designer</h4>
+                    <p> Behance</p>
+                </div>
+                <!-- 2 -->
+                <div class="experience-item">
+                    <span>2024</span>
+                    <h4>UX Design case study</h4>
+                    <p> Behance</p>
+                </div>
+                <!-- 3 -->
+                <div class="experience-item">
+                    <span>2024</span>
+                    <h4>Product Designer v/s Product Manage</h4>
+                    <p> product Hunt</p>
+                </div>
+                <!-- 4 -->
+                <div class="experience-item">
+                    <span>2024</span>
+                    <h4>Xiomi in Product Design (UI/UX)</h4>
+                    <p> pinterest</p>
+                </div>
+                <!--  end-->
+            </div>
+            <div class="skill-container">
+                <!-- 1 -->
+                <div class="skill-card">
+                    <img src="./assets/images/skill-img-figma.png" alt="Figma">
+                    <p><span class="highlight">70%</span> Figma</p>
+                </div>
+                <!-- 2 -->
+                <div class="skill-card">
+                    <img src="./assets/images/skill-img-photoshop.png" alt="Photoshop">
+                    <p><span class="highlight">70%</span> Photoshop</p>
+                </div>
+                <!-- 3 -->
+                <div class="skill-card">
+                    <img src="./assets/images/skill-image-ai.png" alt="Abode Ai">
+                    <p><span class="highlight">70%</span> Abode Ai</p>
+                </div>
+                <!-- 4 -->
+                <div class="skill-card">
+                    <img src="./assets/images/skill-img-streatch.png" alt="Streatch">
+                    <p><span class="highlight">70%</span> Streatch</p>
+                </div>
+                <!-- 5 -->
+                <div class="skill-card">
+                    <img src="./assets/images/skill-img-adobexd.png" alt="Abode XD">
+                    <p><span class="highlight">70%</span> Abode XD</p>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </section>
+    <!-- experience end -->
+    <!-- award-section-start--------------------------------------------------------- -->
+    <section id="award">
+        <div class="container">
+            <!-- 1no row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 award-left">
+                    <h6><img src="./assets/images/icon-image.png" alt="">Awards</h6>
+                    <h2><span class="highlight">Awards</span> & Recognition</h2>
+                </div>
+                <div class="col-lg-6  award-right d-inline-flex justify-content-start align-items-center">
+                    <img src="./assets/images/award-img1.png" alt="" width="64px" height="64px">
+                    <div class="contains">
+                        <h4>Design Leadership Award</h4>
+                        <h6>March 26, 2024</h6>
+                    </div>
+                    <img src="./assets/images/award-img2.png" alt="" width="64px" height="64px">
+                </div>
+            </div>
+            <!-- 2no row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6  award-right d-inline-flex justify-content-start align-items-center">
+                    <img src="./assets/images/award-img3.png" alt="" width="64px" height="64px">
+                    <div class="contains">
+                        <h4>Best UI/UX Design Award</h4>
+                        <h6>March 26, 2024</h6>
+                    </div>
+                    <img src="./assets/images/award-img4.png" alt="" width="64px" height="64px">
+                </div>
+                <div class="col-lg-6  award-right d-inline-flex justify-content-start align-items-center">
+                    <img src="./assets/images/award-img5.png" alt="" width="64px" height="64px">
+                    <div class="contains">
+                        <h4>Best Mobile App Design</h4>
+                        <h6>March 26, 2024</h6>
+                    </div>
+                    <img src="./assets/images/award-img6.png" alt="" width="64px" height="64px">
+                </div>
+            </div>
+            <!-- 3no row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6  award-right d-inline-flex justify-content-start align-items-center">
+                    <img src="./assets/images/award-img7.png" alt="" width="64px" height="64px">
+                    <div class="contains">
+                        <h4>Creative Award</h4>
+                        <h6>March 26, 2024</h6>
+                    </div>
+                    <img src="./assets/images/award-img8.png" alt="" width="64px" height="64px">
+                </div>
+
+            </div>
+            <!--  -->
+        </div>
+    </section>
+    <!-- award-section end -->
+    <!-- pricing-section-start----------------------------------------------------------- -->
+    <section id="pricing-section">
+        <div class="container">
+            <div class="header">
+                <h6><img src="./assets/images/icon-image.png" alt="">Best Pricing</h6>
+                <h2>My <span class="highlight">Pricing</span> Plan</h2>
+            </div>
+            <div class="row ">
+                <!-- 1 -->
+                <div class="col-lg-4 pricing-package-container">
+                    <div class="header">
+                        <h6>Basic Plan</h6>
+                        <h2 class="highlight">$2500</h2>
+                        <h5>/Monthly</h5>
+                        <p>Description of the tier list will go here, copy
+                            should be concise and impactful.</p>
+                        <hr>
+                    </div>
+                    <div class="body">
+                        <!-- 1 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>UI UX Design</p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design Customization</p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design with Figma</p>
+                        </div>
+                        <!-- 4 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Multipage Design</p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Support 6 months</p>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="">Start My Project Now <iconify-icon icon="teenyicons:arrow-right-solid" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-4 pricing-package-container">
+                    <div class="header">
+                        <h6>Basic Plan</h6>
+                        <h2 class="highlight">$2500</h2>
+                        <h5>/Monthly</h5>
+                        <p>Description of the tier list will go here, copy
+                            should be concise and impactful.</p>
+                        <hr>
+                    </div>
+                    <div class="body">
+                        <!-- 1 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>UI UX Design</p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design Customization</p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design with Figma</p>
+                        </div>
+                        <!-- 4 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Multipage Design</p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Support 6 months</p>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="">Start My Project Now <iconify-icon icon="teenyicons:arrow-right-solid" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-4 pricing-package-container">
+                    <div class="header">
+                        <h6>Basic Plan</h6>
+                        <h2 class="highlight">$2500</h2>
+                        <h5>/Monthly</h5>
+                        <p>Description of the tier list will go here, copy
+                            should be concise and impactful.</p>
+                        <hr>
+                    </div>
+                    <div class="body">
+                        <!-- 1 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>UI UX Design</p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design Customization</p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Design with Figma</p>
+                        </div>
+                        <!-- 4 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Multipage Design</p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="items d-flex">
+                            <span><iconify-icon icon="iconamoon:arrow-right-2-duotone" width="24"
+                                    height="24"></iconify-icon></span>
+                            <p>Support 6 months</p>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="">Start My Project Now <iconify-icon icon="teenyicons:arrow-right-solid" width="24"
+                                height="24"></iconify-icon></a>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+    <!-- clients-section start---------------------------------------------------- -->
+    <section id="clients-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 clients-left">
+                    <h6><img src="./assets/images/icon-image.png" alt="">Testimonials</h6>
+                    <h2>Our clients awesome Testimonials</h2>
+                    <div class="clients-rating-container">
+                        <h2>2.5</h2>
+                        <div class="rating">
+                            <p>1200+ Clients Rating.</p>
+                            <span><iconify-icon icon="noto:star" width="12" height="12"></iconify-icon></span>
+                            <span><iconify-icon icon="noto:star" width="12" height="12"></iconify-icon></span>
+                            <span><iconify-icon icon="noto:star" width="12" height="12"></iconify-icon></span>
+                            <span><iconify-icon icon="noto:star" width="12" height="12"></iconify-icon></span>
+                            <span><iconify-icon icon="noto:star" width="12" height="12"></iconify-icon></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 clients-right">
+                    <div class="clients-opinion-container">
+                        <div class="header">
+                            <img src="./assets/images/clients-image.png" alt="">
+                            <div class="author">
+                                <h6>Daniel Smith</h6>
+                                <p>Senior engineer</p>
+                            </div>
+                        </div>
+                        <div class="contains">
+                            <img src="./assets/images/clients-image2.png" alt="">
+                            <p>This digital agency completely transformed our
+                                online presence. Their expertise, creativity, and
+                                attention to detail exceeded all our
+                                expectations. We highly recommend their
+                                outstanding services!</p>
+                        </div>
+                    </div>
+                    <div class="circle-container ">
+                        <div class="circle"></div>
+                        <div class="circle active"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- clients-section end -->
+    <!-- blog-section start-------------------------------------------------------- -->
+    <section id="blog-section">
+        <div class="container">
+            <div class="header">
+                <h6><img src="./assets/images/icon-image.png" alt="">My Blog</h6>
+                <h2>Latest Blog</h2>
+            </div>
+            <div class="row mt-5">
+                <!-- 1 -->
+                <div class="col-lg-4">
+                    <div class="blog-container">
+                        <img src="./assets/images/blog-image.png" alt="">
+                        <div class="blog-contains">
+                            <p><span class="highlight">branding</span> 26 June 2024</p>
+                            <h2>The Role of Prototyping in UI/UX Design</h2>
+                            <a href=""><iconify-icon icon="prime:arrow-up-right" width="24"
+                                    height="24"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-4">
+                    <div class="blog-container">
+                        <img src="./assets/images/blog-image2.png" alt="">
+                        <div class="blog-contains">
+                            <p><span class="highlight">branding</span> 26 June 2024</p>
+                            <h2>The Role of Prototyping in UI/UX Design</h2>
+                            <a href=""><iconify-icon icon="prime:arrow-up-right" width="24"
+                                    height="24"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-4">
+                    <div class="blog-container">
+                        <img src="./assets/images/blog-image3.png" alt="">
+                        <div class="blog-contains">
+                            <p><span class="highlight">branding</span> 26 June 2024</p>
+                            <h2>The Role of Prototyping in UI/UX Design</h2>
+                            <a href=""><iconify-icon icon="prime:arrow-up-right" width="24"
+                                    height="24"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-blogs-btn">
+                    <a href="">view blogs<iconify-icon icon="prime:arrow-up-right" width="24" height="24"> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-section end -->
+    <!-- footer section start --------------------------------------------- -->
+    <footer id="footer-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <h2>Services</h2>
+                    <address> Travel World House, Level 7, 17 <br>Jones St, NSW, 2060F</address>
+                </div>
+                <div class="col-lg-3">
+                    <h2>Contact</h2>
+                    <p>webspecialistmonika@gmail.com</p>
+                    <p>0123456788</p>
+                </div>
+                <div class="col-lg-3">
+                    <h2>Useful Links</h2>
+                    <ul class="list-unstyled">
+                        <li> <a href="#about-section">About Me</a></li>
+                        <li> <a href="#service-section">Service</a></li>
+                        <li> <a href="#portfolio">Portfolio</a></li>
+                        <li> <a href="#blog-section">Blogs</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h2>services</h2>
+                    <ul  class="list-unstyled">
+                        <li><a href="#">Moblie App Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Visual Design</a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="footer-end d-flex">
+                <p>&copy;Copyright <span class="highlight">xiomi</span></p>
+                <a href="#hero-section"><img src="./assets/images/footer-logo.png" alt="" width="100px"></a>
+                <p class="me-5">terms & conditions</p>
+                <p class="me-0">Privacy</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+
+    <!-- iconify  js -->
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+@media(max-width:992px){
+    header{
+        height:90vh;
+        background-image: url(../images/hero-section-bg-image.jpg);
+    }
+    #hero-section .hero-left{
+        margin-top: 40px;
+    }
+    #hero-section .hero-left img{
+        width: 54%;
+    }
+    #hero-section .hero-right::after{
+        display: none;
+    }
+    #hero-section .hero-right h6{
+        font-size: 13px;
+    }
+    #hero-section .hero-right h2 {
+        font-size: 30px;
+    }
+    #hero-section .hero-right h2 .highlight{
+        color:#28E98C;
+
+    }
+    #hero-section .hero-right p{
+        margin: 14px 0px;
+    }
+    #hero-section .hero-right a:nth-of-type(1){
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    #hero-section .hero-right .reel-paly-icon{
+        height: 40px;
+    width: 40px;
+    }
+     /* #hero-section .hero-right .reel-paly-icon .iconify{
+        width:16px ;
+        height:16px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+     } */
+    /* about-section start---------------------------------------------------------- */
+    #about-section{
+        padding:50px 0px;
+    }
+    #about-section .about-left h2::after{
+        display: none;
+    }
+    #about-section .about-left h6{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    #about-section .about-left h2 {
+        width: 65%;
+        font-size: 30px;
+    }
+    #about-section .about-left p {
+        width: 62%;
+        font-size: 13px;
+    }
+    #about-section .about-left .experience-container span{
+        font-size: 35px;
+    }
+    #about-section .about-left .experience-container .contains p{
+        font-size: 12px;
+    }
+    #about-section .about-left .contact-me a {
+        padding:10px 30px;
+        font-size: 13px;
+    }
+    #about-section .about-left .contact-me span{
+        height:40px;
+        width: 40px;
+    }
+    #about-section .about-left .contact-me p {
+        font-size: 15px;
+    }
+    #about-section .about-left .contact-me h6{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    #about-section .about-right img{
+        width:60%;
+        text-align: center;
+    }
+    /* about-section end */
+     /* service-start------------------------------------------------------------------------- */
+    #service-section {
+        padding: 50px 0px 40px;
+    }
+
+    /* #service-section .container{
+        width:95%
+    } */
+    #service-section::before {
+        display: none;
+    }
+
+    #service-section .service-header h6 {
+        font-size: 15px;
+    }
+
+    #service-section .service-header h2 {
+        font-size: 31px;
+        margin: 0px 0px 20px;
+    }
+
+    #service-section .service-details p {
+        display: none;
+    }
+
+    #service-section .service-list {
+        margin: 50px 0px;
+    }
+
+    #service-section .service-item {
+        width: 100%;
+        justify-content: space-between;
+        height: 80px;
+    }
+
+    #service-section .order-list {
+        font-size: 15px;
+    }
+
+    #service-section .service-details h3 {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    /* service-end */
+    /* experience-start----------------------------------------------------------------------- */
+    #experience-section {
+        padding: 40px 0px;
+    }
+
+    #experience-section::after {
+        display: none;
+    }
+
+    #experience-section .experience-header h6 {
+        font-size: 15px;
+    }
+
+    #experience-section .experience-header h2 {
+        font-size: 31px;
+    }
+
+    #experience-section .experience-item span {
+        font-size: 15px;
+    }
+
+    #experience-section .experience-item h4 {
+        font-size: 18px;
+    }
+
+    #experience-section .experience-item p {
+        font-size: 15px;
+    }
+
+    #experience-section .experience-list {
+        margin: 50px 0px 70px;
+    }
+    #experience-section .skill-container {
+        width: 100%;
+        height: 100px;
+        padding:15px 0px 15px 15px;
+    }
+    #experience-section .skill-card .highlight{
+        font-size: 15px;
+    }
+    #experience-section .skill-card p {
+        font-size: 10px;
+    }
+    #experience-section .skill-card img{
+        width:40px;
+        height:40px;
+    }
+    #experience-section .skill-card:not(:last-child)::after{
+        height: 122%;
+    }
+    /* experience-end*/
+}
