@@ -1,39 +1,59 @@
-@media(max-width:992px){
-    header{
-        height:90vh;
+@media(max-width:992px) {
+    header {
+        height: 90vh;
         background-image: url(../images/hero-section-bg-image.jpg);
     }
-    #hero-section .hero-left{
+
+    #hero-section .hero-left {
         margin-top: 40px;
+        text-align: center;
+        /* margin-left: 0px; */
     }
-    #hero-section .hero-left img{
-        width: 54%;
+
+    #hero-section .hero-left img {
+        width: 33%;
+        margin-top: 0px;
     }
-    #hero-section .hero-right::after{
+
+    #hero-section .hero-right::after {
         display: none;
     }
-    #hero-section .hero-right h6{
+
+    #hero-section .hero-right {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #hero-section .hero-right h6 {
         font-size: 13px;
     }
+
     #hero-section .hero-right h2 {
         font-size: 30px;
     }
-    #hero-section .hero-right h2 .highlight{
-        color:#28E98C;
+
+    #hero-section .hero-right h2 .highlight {
+        color: #28E98C;
 
     }
-    #hero-section .hero-right p{
+
+    #hero-section .hero-right p {
         margin: 14px 0px;
+        width: 70%;
+        display: inline-flex;
     }
-    #hero-section .hero-right a:nth-of-type(1){
+
+    #hero-section .hero-right a:nth-of-type(1) {
         padding: 12px 20px;
         font-size: 14px;
     }
-    #hero-section .hero-right .reel-paly-icon{
+
+    #hero-section .hero-right .reel-paly-icon {
         height: 40px;
-    width: 40px;
+        width: 40px;
     }
-     /* #hero-section .hero-right .reel-paly-icon .iconify{
+
+    /* #hero-section .hero-right .reel-paly-icon .iconify{
         width:16px ;
         height:16px;
         display: inline-flex;
@@ -42,53 +62,121 @@
         display: inline-block;
      } */
     /* about-section start---------------------------------------------------------- */
-    #about-section{
-        padding:50px 0px;
+    #about-section {
+        padding: 50px 0px 0px;
     }
-    #about-section .about-left h2::after{
+
+    #about-section .about-left {
+        text-align: center;
+        width: 100%;
+    }
+
+    #about-section .about-left h2::after {
         display: none;
     }
-    #about-section .about-left h6{
+
+    #about-section .about-left h6 {
         font-size: 14px;
         margin-bottom: 0px;
     }
+
     #about-section .about-left h2 {
-        width: 65%;
+        /* width: %; */
         font-size: 30px;
+        width: 67%;
+        display: inline-block;
+
     }
+
     #about-section .about-left p {
-        width: 62%;
+        /* width: 62%; */
         font-size: 13px;
+        width: 70%;
+        display: inline-block;
     }
-    #about-section .about-left .experience-container span{
+
+    #about-section .about-left .experience-container {
+        justify-content: center;
+    }
+
+    #about-section .about-left .experience-container span {
         font-size: 35px;
     }
-    #about-section .about-left .experience-container .contains p{
+
+    #about-section .about-left .experience-container .contains p {
         font-size: 12px;
+        margin: 0px;
     }
+
+    #about-section .about-left .contact-me {
+        justify-content: center;
+    }
+
     #about-section .about-left .contact-me a {
-        padding:10px 30px;
+        padding: 10px 30px;
         font-size: 13px;
     }
-    #about-section .about-left .contact-me span{
-        height:40px;
+
+    #about-section .about-left .contact-me span {
+        height: 40px;
         width: 40px;
     }
+
     #about-section .about-left .contact-me p {
         font-size: 15px;
     }
-    #about-section .about-left .contact-me h6{
+
+    #about-section .about-left .contact-me h6 {
         font-size: 12px;
         margin-bottom: 0px;
     }
-    #about-section .about-right img{
-        width:60%;
+
+    #about-section .about-right {
         text-align: center;
     }
+
+    #about-section .about-right img {
+        width: 60%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
     /* about-section end */
-     /* service-start------------------------------------------------------------------------- */
+    /* portfolio-section start-------------------------------------------------- */
+    #portfolio {
+        padding: 40px 0px;
+    }
+
+    #portfolio .header p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #portfolio .header .header-container h2 {
+        font-size: 30px;
+    }
+
+    /* portfolio end */
+    /* service-start------------------------------------------------------------------------- */
     #service-section {
         padding: 50px 0px 40px;
+    }
+
+    #portfolio .header .header-container a {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+
+    body #portfolio .container .portfolio-wrapper:nth-child(2) {
+        margin-top: 15px;
+    }
+
+    #portfolio .portfolio-wrapper .portfolio-content .portfolio-links-details {
+        justify-content: flex-start;
+    }
+
+    #portfolio .portfolio-wrapper .portfolio-content .portfolio-links-details a {
+        margin-left: 180px;
     }
 
     /* #service-section .container{
@@ -130,6 +218,7 @@
         margin-left: 0px;
         font-size: 18px;
     }
+
     /* service-end */
     /* experience-start----------------------------------------------------------------------- */
     #experience-section {
@@ -163,23 +252,126 @@
     #experience-section .experience-list {
         margin: 50px 0px 70px;
     }
+
     #experience-section .skill-container {
         width: 100%;
         height: 100px;
-        padding:15px 0px 15px 15px;
+        padding: 15px 0px 15px 15px;
     }
-    #experience-section .skill-card .highlight{
+
+    #experience-section .skill-card .highlight {
         font-size: 15px;
     }
+
     #experience-section .skill-card p {
         font-size: 10px;
     }
-    #experience-section .skill-card img{
-        width:40px;
-        height:40px;
+
+    #experience-section .skill-card img {
+        width: 40px;
+        height: 40px;
     }
-    #experience-section .skill-card:not(:last-child)::after{
+
+    #experience-section .skill-card:not(:last-child)::after {
         height: 122%;
     }
+
     /* experience-end*/
+    /* blog-section start--------------------------------------------- */
+
+    #blog-section{
+        padding:40px 0px;
+    }
+    #blog-section .header h6{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    #blog-section .header h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #blog-section .container .row{
+        /* text-align: center; */
+        justify-content: center;
+        width:auto;
+        
+    }
+    #blog-section .blog-container{
+        margin:10px 0px;
+    }
+    #blog-section .blog-container .blog-contains p{
+        font-size: 13px;
+    }
+    #blog-section .blog-container .blog-contains .highlight::after {
+        top:4px;
+        left:77px;
+    }
+    #blog-section .blog-container .blog-contains a{
+        height:35px;
+        width:35px;
+    }
+    #blog-section .blog-container .blog-contains h2{
+        font-size: 20px;
+    }
+    #blog-section .view-blogs-btn a{
+        font-size: 13px;
+        padding:10px 30px;
+    }
+    /* blog-section end */
+    /* footer-section start--------------------------------------------- */
+    #footer-section {
+        padding: 40px 0px;
+    }
+
+    #footer-section::after {
+        display: none;
+    }
+
+    #footer-section::before {
+        display: none;
+    }
+
+    #footer-section .footer-end {
+        justify-content: space-between;
+    }
+
+    #footer-section .footer-end img {
+        margin: 0px
+    }
+
+    #footer-section .footer-end p {
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    #footer-section .row h2 {
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+
+    #footer-section .row p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #footer-section .row address {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #footer-section .row ul {
+        text-align: center;
+
+    }
+
+    #footer-section .row ul li a {
+        font-size: 13px;
+    }
+
+    #footer-section .row hr {
+        margin: 10px 0px;
+    }
+
+    /* footer-section end */
 }

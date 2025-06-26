@@ -1307,6 +1307,7 @@ body #portfolio .container .portfolio-wrapper:nth-child(2) {
 
 #footer-section .footer-end{
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     
 
