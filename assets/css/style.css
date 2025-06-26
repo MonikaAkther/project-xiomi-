@@ -43,7 +43,7 @@ header {
 #navbar .nav-link::after {
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: -8px;
     left: 0px;
     height: 3px;
     width: 100%;
@@ -181,7 +181,7 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #666666;
+    background-color: #dbdbdb;
     border-radius: 50%;
     margin: 0px 16px 0px 24px;
 }
